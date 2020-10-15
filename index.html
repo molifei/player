@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>播放器</title>
+</head>
+
+<body>
+<video id="video">
+  <source src="http://cdn.wangyankai.top/video/movie.mp4">
+</video>
+
+<div id="time">
+  <!-- 当前时间 -->
+  <div id="now">00:00:00</div>
+  <!-- 总时长 -->
+  <div id="total">00:00:00</div>
+</div>
+
+<div id="progress-wrap">
+  <div id="progress"></div>
+</div>
+
+<div class="control-wrap">
+  <button id=back>快退3s</button>
+  <button id="play">播放</button>
+  <button id="forward">快进3s</button>
+  <button id="full-screen">全屏</button>
+</div>
+</body>
+<script src="./js/getTime.js"></script>
+<script src="./js/fullScreen.js"></script>
+<script src="./js/index.js"></script>
+
+</html>

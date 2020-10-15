@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#video {
+    width: 500px;
+}
+
+.control-wrap {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+
+    button {
+        width: 100px;
+        height: 40px;
+        border: 0;
+        left: .1em;
+        border-radius: 2px;
+        background-color: #1890ff;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+    }
+}
+
+
+#time {
+    margin-top: 30px;
+    width: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#progress-wrap {
+    background-color: #ccc;
+    width: 500px;
+    height: 5px;
+    margin: 30px 0;
+    border-radius: 4px;
+
+    #progress {
+        width: 0%;
+        height: 5px;
+        background-color: #1890ff;
+    }
+}
